@@ -1,6 +1,6 @@
 PDFLATEX = pdflatex
 
-all: cv.pdf cv_pt.pdf
+all: cv.pdf cv_pt.pdf cv_pt_other.pdf
 
 %.pdf: %.tex
 	$(PDFLATEX) $<
